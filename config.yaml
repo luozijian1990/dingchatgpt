@@ -1,0 +1,13 @@
+db_ip: "192.168.1.88"
+db_port: 13806
+db_name: "chatgpt"
+db_user: "root"
+db_password: "123456docker"
+
+# 钉钉stream 机器人
+ding_app_key: "xxx"
+ding_app_secret: "xxx"
+
+# gpt-key
+gpt_baseurl: "https://xxx/v1"
+gpt_token: "sk-xxx"
