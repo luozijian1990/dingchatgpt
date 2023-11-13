@@ -2,10 +2,10 @@ package gpt
 
 import (
 	"context"
-	"fmt"
-	"github.com/sashabaranov/go-openai"
 	"dingchatgpt/config"
 	"dingchatgpt/db"
+	"fmt"
+	"github.com/sashabaranov/go-openai"
 )
 
 func AskChatGpt(question, askUser string, askContext []db.GptInfo) (string, error) {

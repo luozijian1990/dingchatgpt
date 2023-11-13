@@ -27,7 +27,7 @@ func init()  {
 }
 
 func InitFlat() {
-	flag.StringVar(&AppConfigFile, "conf-file", "D:\\GoWork\\src\\gostudy\\new-chat-ding\\config.yaml", "config-file")
+	flag.StringVar(&AppConfigFile, "conf-file", "config.yaml", "config-file")
 	//GetConfig()
 	//AppConfig()
 }

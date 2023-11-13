@@ -13,6 +13,7 @@ import (
 
 func main() {
 	config.InitFlat()
+
 	flag.Parse()
 	//db.GptDBModel().Init()
 	db.Connect()

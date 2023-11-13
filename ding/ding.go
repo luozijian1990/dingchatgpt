@@ -2,13 +2,13 @@ package ding
 
 import (
 	"context"
+	"dingchatgpt/config"
+	"dingchatgpt/db"
+	"dingchatgpt/gpt"
 	"fmt"
 	"github.com/open-dingtalk/dingtalk-stream-sdk-go/chatbot"
 	"github.com/open-dingtalk/dingtalk-stream-sdk-go/client"
 	"github.com/open-dingtalk/dingtalk-stream-sdk-go/logger"
-	"dingchatgpt/config"
-	"dingchatgpt/db"
-	"dingchatgpt/gpt"
 	"strings"
 )
 
