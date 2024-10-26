@@ -35,7 +35,6 @@ func Connect() {
 	//flag.Parse()
 	appConfig := config.GetConfig()
 
-	//dsn := "root:123456docker/@tcp(192.168.1.88:13806)/chatgpt?charset=utf8mb4&parseTime=True&loc=Local"
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8mb4&parseTime=True&loc=Local", appConfig.DBUser, appConfig.DBPasswd, appConfig.DBIp, appConfig.DBPort, appConfig.DBName)
 	fmt.Println(dsn)
 	//dsn := "root:My:S3cr3t/@tcp(127.0.0.1:30306)/chatgpt?charset=utf8mb4&parseTime=True&loc=Local"
